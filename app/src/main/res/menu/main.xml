@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_upgrade"
+        android:orderInCategory="100"
+        android:icon="@drawable/ic_explore_black_24dp"
+        android:title="@string/action_upgrade"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/action_search"
+        android:orderInCategory="100"
+        android:icon="@drawable/ic_search_black_24dp"
+        android:title="@string/action_search"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/action_selected_notes"
+        android:orderInCategory="100"
+        android:title="@string/action_selected_notes"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_add_home"
+        android:orderInCategory="100"
+        android:title="@string/action_add_home"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_sort"
+        android:orderInCategory="100"
+        android:title="@string/action_sort_by"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_view_opt"
+        android:orderInCategory="100"
+        android:title="@string/action_view_opt"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_sync"
+        android:orderInCategory="100"
+        android:title="@string/action_sync"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        app:showAsAction="never" />
+</menu>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_all_notes"
+            android:icon="@drawable/ic_note_add_black_24dp"
+            android:title="@string/menu_all_notes" />
+        <item
+            android:id="@+id/nav_notebooks"
+            android:icon="@drawable/ic_insert_drive_file_black_24dp"
+            android:title="@string/menu_notebooks" />
+        <item
+            android:id="@+id/nav_share"
+            android:icon="@drawable/ic_people_black_24dp"
+            android:title="@string/menu_share_with_me" />
+        <item
+            android:id="@+id/nav_tag"
+            android:icon="@drawable/ic_more_black_24dp"
+            android:title="@string/menu_tags" />
+        <item
+            android:id="@+id/nav_shortcut"
+            android:icon="@drawable/ic_star_black_24dp"
+            android:title="@string/menu_shortcut" />
+        <item
+            android:id="@+id/nav_collect_photos"
+            android:icon="@drawable/ic_collections_black_24dp"
+            android:title="@string/menu_collect_photos" />
+        <item
+            android:id="@+id/nav_trash"
+            android:icon="@drawable/ic_delete_black_24dp"
+            android:title="@string/menu_trash" />
+    </group>
+
+    <group
+        android:id="@+id/menu_bottom"
+        android:checkableBehavior="none">
+
+        <item
+            android:id="@+id/nav_refresh"
+            android:icon="@drawable/ic_sync_black_24dp"
+            android:title="@string/menu_sync" />
+
+    </group>
+
+</menu>
